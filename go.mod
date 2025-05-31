@@ -1,4 +1,4 @@
-module github.com/passbolt/go-passbolt
+module github.com/renaudfractale/go-passbolt
 
 go 1.23.0
 
