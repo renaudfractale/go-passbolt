@@ -47,6 +47,8 @@ func GetUser(ctx context.Context, c *api.Client, userID string) (string, string,
 	if err != nil {
 		return "", "", "", "", fmt.Errorf("Getting User: %w", err)
 	}
+	fmt.Printf("**************************")
+	fmt.Printf("%+v\n", u)
 	return u.Role.Name, u.Username, u.Profile.FirstName, u.Profile.LastName, nil
 }
 
