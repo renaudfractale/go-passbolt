@@ -6,6 +6,7 @@ require (
 	github.com/ProtonMail/gopenpgp/v2 v2.8.3
 	github.com/google/go-querystring v1.1.0
 	github.com/google/uuid v1.6.0
+	github.com/passbolt/go-passbolt v0.7.2
 	github.com/santhosh-tekuri/jsonschema v1.2.4
 )
 
